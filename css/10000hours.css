@@ -257,6 +257,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 24px;
 }
 .modal .modal_box .modal_img img{
     width: 343px;
@@ -327,11 +328,150 @@ footer .copyright span{
 
 @media (max-width:1300px){
     .head{
-        margin:199px auto 46px;
-        background-size: 14vw;
+        margin:40px auto 20px;
+        background-size: 18vw;
     }
     .head .title a{
-        width:50vw;
+        width:60vw;
+    }
+    .coment1{
+        font-size: 32px;
+        font-family: 'OTEnjoystoriesBA';
+        z-index: 3;
+    }
+    .coment2{
+        width: 60%;
+        margin: 62px auto;
+    }
+    .coment2 .mark{
+        width: 60%;
+        margin-top: 28px;
+    }
+    .coment2 .mark span{
+        font-size: 76px;
+    }
+    .coment2 .text{
+        font-size: 20px;
+    }
+    .coment2 .text .text_bold{
+        font-size: 28px;
+    }
+    .coment3{
+        margin-bottom: 21px;
+        font-size: 20px;
+    }
+    .coment3 input{
+        width: 22vw;
+        padding: 14px 40px;
+        font-size: 20px;
+    }
+    .coment3 span{
+        display: block;
+        margin-bottom: 21px;
+    }
+
+    .button1{
+        margin: 65px auto 68px;
+    }
+    .button1 button{
+        border-radius: 13px;
+        padding: 21px 164px;
+    }
+    .button1 button span{
+        font-size: 21px;
+        line-height: 25px;
+        letter-spacing: 0;
+        word-break: keep-all;
+    }
+    .button1 .hand{
+        width: 23px;
+        height: 23px;
+        top: 92px;
+        left: 760px;
+    }
+    .button1 .hand img{
+        width: 42px;
+        height: 50px;
+    }
+
+    .coment4{
+        width:53%;
+        margin-bottom: 48px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .coment4 .text_large{
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .button2{
+        margin-bottom: 75px;
+    }
+    .button2 input{
+        margin: 0;
+    }
+    .button2 .btngo{
+        padding: 15.5px 35px;
+    }
+    .button2 .btngo span{
+        font-size: 20px;
+        line-height: 14px;
+    }
+    .button2 .btnsr{
+        padding: 15.5px 35px;
+    }
+    .button2 .btnsr span{
+        font-size: 20px;
+        line-height: 14px;
+    }
+
+    footer .logo{
+        width: 96px;
+        height: 28px;
+        margin: 0 auto 17px;
+    }
+    footer .copyright{
+        margin-bottom: 32px;
+        width: 430px;
+    }
+    footer .copyright span{
+        font-size: 14px;
+        font-weight: 200;
+    }
+
+    .modal .modal_box{
+        width:330px;
+        height:500px;
+    }
+    .modal .modal_box .modal_text{
+        padding-top: 40px;
+    }
+    .modal .modal_box p:first-child{
+        font-size: 64px;
+    }
+    .modal .modal_box p:last-child{
+        font-size: 36px;
+    }
+    .modal .modal_box .modal_img{
+        margin-bottom: 44px;
+    }
+    .modal .modal_box .modal_img img{
+        width: 241px;
+        height: 188px;
+    }
+    .modal .modal_box .modal_btn{
+        width: 241px;
+        margin: auto;
+    }
+    .modal .modal_box .modal_btn button{
+        padding: 14px 54px;
+        border-radius: 13px;
+    }
+    .modal .modal_box .modal_btn button span{
+        font-size: 14px;
+        line-height: 14px;
+        word-break: keep-all;
     }
 }
 @media (max-width:840px){
@@ -342,6 +482,145 @@ footer .copyright span{
     .head .title a{
         width:60vw;
     }
+    .coment1{
+        font-size: 32px;
+        font-family: 'OTEnjoystoriesBA';
+        z-index: 3;
+    }
+    .coment2{
+        width: 60%;
+        margin: 62px auto;
+    }
+    .coment2 .mark{
+        width: 60%;
+        margin-top: 28px;
+    }
+    .coment2 .mark span{
+        font-size: 76px;
+    }
+    .coment2 .text{
+        font-size: 20px;
+    }
+    .coment2 .text .text_bold{
+        font-size: 28px;
+    }
+    .coment3{
+        margin-bottom: 21px;
+        font-size: 20px;
+    }
+    .coment3 input{
+        width: 22vw;
+        padding: 14px 40px;
+        font-size: 20px;
+    }
+    .coment3 span{
+        display: block;
+        margin-bottom: 21px;
+    }
+
+    .button1{
+        margin: 55px auto 58px;
+    }
+    .button1 button{
+        border-radius: 13px;
+        padding: 21px 144px;
+    }
+    .button1 button span{
+        font-size: 21px;
+        line-height: 25px;
+        letter-spacing: 0;
+        word-break: keep-all;
+    }
+    .button1 .hand{
+        width: 23px;
+        height: 23px;
+        top: 92px;
+        left: 760px;
+    }
+    .button1 .hand img{
+        width: 42px;
+        height: 50px;
+    }
+
+    .coment4{
+        width:53%;
+        margin-bottom: 48px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .coment4 .text_large{
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .button2{
+        margin-bottom: 75px;
+    }
+    .button2 input{
+        margin: 0;
+    }
+    .button2 .btngo{
+        padding: 15.5px 35px;
+    }
+    .button2 .btngo span{
+        font-size: 20px;
+        line-height: 14px;
+    }
+    .button2 .btnsr{
+        padding: 15.5px 35px;
+    }
+    .button2 .btnsr span{
+        font-size: 20px;
+        line-height: 14px;
+    }
+
+    footer .logo{
+        width: 96px;
+        height: 28px;
+        margin: 0 auto 17px;
+    }
+    footer .copyright{
+        margin-bottom: 32px;
+        width: 430px;
+    }
+    footer .copyright span{
+        font-size: 14px;
+        font-weight: 200;
+    }
+
+    .modal .modal_box{
+        width:330px;
+        height:500px;
+    }
+    .modal .modal_box .modal_text{
+        padding-top: 40px;
+    }
+    .modal .modal_box p:first-child{
+        font-size: 64px;
+    }
+    .modal .modal_box p:last-child{
+        font-size: 36px;
+    }
+    .modal .modal_box .modal_img{
+        margin-bottom: 44px;
+    }
+    .modal .modal_box .modal_img img{
+        width: 241px;
+        height: 188px;
+    }
+    .modal .modal_box .modal_btn{
+        width: 241px;
+        margin: auto;
+    }
+    .modal .modal_box .modal_btn button{
+        padding: 14px 54px;
+        border-radius: 13px;
+    }
+    .modal .modal_box .modal_btn button span{
+        font-size: 14px;
+        line-height: 14px;
+        word-break: keep-all;
+    }
 }
 @media (max-width:480px){
     .head{
@@ -351,6 +630,146 @@ footer .copyright span{
     .head .title a{
         width:70vw;
     }
+    .coment1{
+        font-size: 28px;
+        font-family: 'OTEnjoystoriesBA';
+        z-index: 3;
+    }
+    .coment2{
+        width: 80%;
+        margin: 62px auto;
+    }
+    .coment2 .mark{
+        width: 80%;
+        margin-top: 38px;
+    }
+    .coment2 .mark span{
+        font-size: 56px;
+    }
+    .coment2 .text{
+        font-size: 16px;
+    }
+    .coment2 .text .text_bold{
+        font-size: 24px;
+    }
+    .coment3{
+        margin-bottom: 17px;
+        font-size: 16px;
+    }
+    .coment3 input{
+        width: 22vw;
+        padding: 11px 36px;
+        font-size: 16px;
+    }
+    .coment3 span{
+        display: block;
+        margin-bottom: 17px;
+    }
+
+    .button1{
+        margin: 0px auto 48px;
+        padding: 19px 0;
+    }
+    .button1 button{
+        border-radius: 15px;
+    }
+    .button1 button span{
+        font-size: 16px;
+        line-height: 16px;
+        letter-spacing: 0;
+        word-break: keep-all;
+    }
+    .button1 .hand{
+        width: 23px;
+        height: 23px;
+        top: 62px;
+        left: 400px;
+    }
+    .button1 .hand img{
+        width: 35px;
+        height: 43px;
+    }
+
+    .coment4{
+        width:75%;
+        margin-bottom: 48px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .coment4 .text_large{
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .button2{
+        margin-bottom: 75px;
+    }
+    .button2 input{
+        margin: 0;
+    }
+    .button2 .btngo{
+        padding: 13.5px 25px;
+    }
+    .button2 .btngo span{
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .button2 .btnsr{
+        padding: 13.5px 25px;
+    }
+    .button2 .btnsr span{
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    footer .logo{
+        width: 92px;
+        height: 24px;
+        margin: 0 auto 17px;
+    }
+    footer .copyright{
+        margin-bottom: 32px;
+        width: 320px;
+    }
+    footer .copyright span{
+        font-size: 11px;
+        font-weight: 200;
+    }
+
+    .modal .modal_box{
+        width:330px;
+        height:500px;
+    }
+    .modal .modal_box .modal_text{
+        padding-top: 40px;
+    }
+    .modal .modal_box p:first-child{
+        font-size: 64px;
+    }
+    .modal .modal_box p:last-child{
+        font-size: 36px;
+    }
+    .modal .modal_box .modal_img{
+        margin-bottom: 44px;
+    }
+    .modal .modal_box .modal_img img{
+        width: 241px;
+        height: 188px;
+    }
+    .modal .modal_box .modal_btn{
+        width: 241px;
+        margin: auto;
+    }
+    .modal .modal_box .modal_btn button{
+        padding: 14px 54px;
+        border-radius: 13px;
+    }
+    .modal .modal_box .modal_btn button span{
+        font-size: 14px;
+        line-height: 14px;
+        word-break: keep-all;
+    }
+
 }
 @media (max-width:360px){
     .head{
@@ -464,5 +883,39 @@ footer .copyright span{
     footer .copyright span{
         font-size: 9px;
         font-weight: 200;
+    }
+
+    .modal .modal_box{
+        width:330px;
+        height:500px;
+    }
+    .modal .modal_box .modal_text{
+        padding-top: 40px;
+    }
+    .modal .modal_box p:first-child{
+        font-size: 64px;
+    }
+    .modal .modal_box p:last-child{
+        font-size: 36px;
+    }
+    .modal .modal_box .modal_img{
+        margin-bottom: 44px;
+    }
+    .modal .modal_box .modal_img img{
+        width: 241px;
+        height: 188px;
+    }
+    .modal .modal_box .modal_btn{
+        width: 241px;
+        margin: auto;
+    }
+    .modal .modal_box .modal_btn button{
+        padding: 14px 54px;
+        border-radius: 13px;
+    }
+    .modal .modal_box .modal_btn button span{
+        font-size: 14px;
+        line-height: 14px;
+        word-break: keep-all;
     }
 }
