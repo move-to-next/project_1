@@ -1,0 +1,362 @@
+@font-face {
+    font-family: 'OTEnjoystoriesBA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2") format('woff2'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff") format('woff'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf") format('opentype');
+}
+
+body{
+    background-color: #5B2386;
+    z-index: 3;
+}
+main{
+    width: 100%;
+    z-index: 3;
+}
+
+/* 최상단 로고 */
+.head{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24vh;
+    margin:199px auto 46px;
+    background: url(../img/clock.png)no-repeat center;
+    background-size: 14vw;
+    z-index: 3;
+}
+.head .title{
+    position: relative;
+}
+.head .title a{
+    display: block;
+    margin:0 auto;
+    width: 40vw;
+    height: 0;
+    padding-top: 14vh;
+    background: url(../img/title.png) no-repeat center;
+    background-size: contain;
+    text-indent: -9999px;
+}
+.info{
+    text-indent: -9999px;
+    z-index: 3;
+}
+
+/* “연습은 어제의 당신보다 당신을 더 낫게 만든다.” */
+.coment1{
+    width: fit-content;
+    margin:auto;
+    font-size: 36px;
+    font-family: 'OTEnjoystoriesBA';
+    color: #F5DF4D;
+    z-index: 3;
+}
+/* 1만 시간의 법칙은 어떤 분야의 전문가가... */
+.coment2{
+    width: 40%;
+    margin: 78px auto 102px;
+    z-index: 3;
+}
+.coment2 .mark{
+    display: flex;
+    width: 40%;
+    margin-top: 20px;
+    justify-content: space-between;
+    position:absolute;
+    z-index: 1;
+}
+.coment2 .mark span{
+    font-family:'GmarketSansBold';
+    font-size:96px;
+    color: #FCEE21;
+    opacity: 20%;
+}
+.coment2 .text{
+    position: relative;
+    font-family: 'GmarketSansMedium';
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    word-break: keep-all;
+    line-height: 30px;
+    color: #fff;
+    z-index: 4;
+}
+.coment2 .text .text_bold{
+    font-family: 'GmarketSansBold';
+    font-size: 24px;
+    font-weight: 700;
+}
+/* 나는 프로그래밍 전문가가 될 것... */
+.coment3{
+    width: fit-content;
+    margin: 0 auto 27px;
+    font-family: 'GmarketSansMedium';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    z-index: 3;
+}
+.coment3 input{
+    width: 13vw;
+    height: fit-content;
+    padding: 17px 40px;
+    border-radius: 7px;
+    text-align: center;
+    font-family: 'GmarketSansMedium';
+    font-size: 24px;
+}
+
+/* 나는 며칠 동안 훈련을 해야 1만 시간이 될까? */
+.button1{
+    position: relative;
+    width: fit-content;
+    margin: 88px auto 147px;
+    z-index: 3;
+}
+.button1 button{
+    padding: 21px 49px;
+    border-radius: 56px;
+    background-color: #FCEE21;
+    cursor: pointer;
+    box-shadow: 0 0 10% #000000 50%;
+}
+.button1 button span{
+    font-family: 'GmarketSansBold';
+    font-size: 24px;
+    letter-spacing: -1px;
+    color: #5B2386;
+}
+.button1 .hand{
+    position: absolute;
+    width: 63px;
+    height: 45px;
+    top: 32px;
+    left: 550px;
+}
+
+/* 당신은 프로그래밍 전문가가 되기... */
+.coment4{
+    width: 55%;
+    margin:0 auto 127px;
+    font-family: 'GmarketSansMedium';
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: -1px;
+    text-align: center;
+    color: #fff;
+    word-break: keep-all;
+    z-index: 3;
+}
+.coment4 .text_large{
+    display: inline-block;
+    font-family: 'GmarketSansBold';
+    font-size: 72px;
+    line-height: 72px;
+    margin-bottom: 17px;
+}
+
+/* 훈련하러 가기 & 공유하기 */
+.button2{
+    width: fit-content;
+    margin:0 auto 130px;
+    z-index: 3;
+}
+.button2 input{
+    margin: 0 9px;
+    padding: 21px 49px;
+    border-radius: 56px;
+    cursor: pointer;
+    box-shadow: 0 0 10% #000000 50%;
+    visibility: hidden;
+}
+.button2 span{
+    font-family: 'GmarketSansBold';
+    font-size: 24px;
+    letter-spacing: -1px;
+    color: #5B2386;
+}
+.button2 .btngo{
+    margin: 0 0 0 9px;
+    padding: 21px 49px;
+    border-radius: 56px;
+    cursor: pointer;
+    box-shadow: 0 0 10% #000000 50%;
+    background-color: #FCEE21;
+}
+.button2 .btnsr{
+    margin: 0 28px 0 0;
+    padding: 21px 49px;
+    border-radius: 56px;
+    cursor: pointer;
+    box-shadow: 0 0 10% #000000 50%;
+    background-color: #fff;
+}
+
+/* modal 창 CSS 영역 */
+.modal{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    z-index: 666;
+}
+.modal .modal_box{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 0 20% 0 #000000 50%;
+    z-index: 777;
+}
+.modal .modal_box .modal_text{
+    width: fit-content;
+    margin: auto;
+    padding-top:76px;
+}
+.modal .modal_box p{
+    font-family: 'OTEnjoystoriesBA';
+    color: #5B2386;
+    text-align: center;
+}
+.modal .modal_box p:first-child{
+    font-size: 96px;
+}
+.modal .modal_box p:last-child{
+    font-size: 36px
+}
+.modal .modal_box .modal_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal .modal_box .modal_img img{
+    width: 343px;
+    height: 267px;
+}
+.modal .modal_box .modal_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.modal .modal_box .modal_btn button{
+    padding: 11px 30px;
+    background-color: #FCEE21;
+    border-radius: 56px;
+    cursor: pointer;
+}
+.modal .modal_box .modal_btn button span{
+    font-family: 'GmarketSansBold';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -1px;
+}
+.modal .modal_bg{
+    background:black;
+    opacity: 50%;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+input[id="modal_check"]:checked.modal{
+    display: flex;
+}
+
+/* FOOTER CSS 입력 영역 */
+footer{
+    width: 100%;
+    margin: auto;
+    z-index: 3;
+}
+footer .logo{
+    display: block;
+    width: 125px;
+    height: 25px;
+    margin: 0 auto 20px;
+    background: url(../img/logo.png) no-repeat;
+    background-size: contain;
+    text-indent: -9999px;
+}
+footer .copyright{
+    width: 365px;
+    margin: 0 auto 70px;
+    text-align: center;
+}
+footer .copyright span{
+    font-family: 'Noto Sans KR';
+    font-size: 12px;
+    line-height: 17.38px;
+    word-break: keep-all;
+    letter-spacing: -0.5px;
+    color: #fff;
+
+}
+
+@media (max-width:1300px){
+    .head{
+        margin:199px auto 46px;
+        background-size: 14vw;
+    }
+    .head .title a{
+        width:50vw;
+    }
+}
+@media (max-width:840px){
+    .head{
+        margin:40px auto 20px;
+        background-size: 18vw;
+    }
+    .head .title a{
+        width:60vw;
+    }
+}
+@media (max-width:480px){
+    .head{
+        margin:30px auto 10px;
+        background-size: 24vw;
+    }
+    .head .title a{
+        width:70vw;
+    }
+}
+@media (max-width:360px){
+    .head{
+        margin:20px auto 0;
+        background-size: 30vw;
+    }
+    .head .title a{
+        width:80vw;
+    }
+}
