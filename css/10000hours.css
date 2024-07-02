@@ -672,6 +672,7 @@ footer .copyright span{
     }
     .button1 button{
         border-radius: 15px;
+        padding: 19px 54px;
     }
     .button1 button span{
         font-size: 16px;
@@ -821,6 +822,7 @@ footer .copyright span{
     }
     .button1 button{
         border-radius: 13px;
+        padding: 19px 54px;
     }
     .button1 button span{
         font-size: 14px;
